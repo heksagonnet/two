@@ -17,7 +17,7 @@ Two is a **beautiful, responsive, one-page portfolio website template** for crea
 ---
 ## Performance (Lighthouse Report)
 
-[Click here to check out the result]()
+[Click here to check out the result](https://googlechrome.github.io/lighthouse/viewer/?gist=e334ae70afa2e602a118b22f62640932)
 
 To keep it optimized, in the server that you choose to host, have a suitable caching policy and properly sized images.
 
