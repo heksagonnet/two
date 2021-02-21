@@ -64,7 +64,7 @@
         color:var(--portfolio) !important;
       }
       .page-section {
-        min-height: 80vh;
+        height: 100%;
       }
       #contact, .contact {
         background-color: var(--bs-dark);
@@ -101,16 +101,16 @@
     </header>
 
     <!-- About Section -->
-    <section id="about">        
-      <div>
-        <div id="myCarousel" class="align-items-center justify-content-center text-center carousel slide" style="min-height: 100vh;" data-bs-ride="carousel" >
+    <section id="about" class="h-100">        
+      <div class="h-100">
+        <div id="myCarousel" class="h-100 align-items-center justify-content-center text-center carousel slide" data-bs-ride="carousel" >
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" style="background-size: cover;background-image: linear-gradient(to right,hsla(0, 0%, 0%, 0.726) 0%,rgba(0, 0, 0, 0.328) 100%),url(/two/assets/img/1.webp);background-position: center;background-repeat: no-repeat;background-blend-mode:darken;">                 
+          <div class="h-100 carousel-inner">
+            <div class="h-100 carousel-item active" style="background-size: cover;background-image: linear-gradient(to right,hsla(0, 0%, 0%, 0.726) 0%,rgba(0, 0, 0, 0.328) 100%),url(/two/assets/img/1.webp);background-position: center;background-repeat: no-repeat;background-blend-mode:darken;">                 
               <div class="container">
                 <div class="carousel-caption text-start">
                   <h1>We are dedicated.</h1>
@@ -119,7 +119,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item" style="background-size: cover;background-image: linear-gradient(to right,hsla(0, 0%, 0%, 0.726) 0%,rgba(0, 0, 0, 0.000) 100%),url(/two/assets/img/2.webp);background-position: center;background-repeat: no-repeat;">            
+            <div class="h-100 carousel-item" style="background-size: cover;background-image: linear-gradient(to right,hsla(0, 0%, 0%, 0.726) 0%,rgba(0, 0, 0, 0.000) 100%),url(/two/assets/img/2.webp);background-position: center;background-repeat: no-repeat;">            
               <div class="container">
                 <div class="carousel-caption">
                   <h1>We go the extra mile.</h1>
@@ -128,7 +128,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item" style="background-size: cover;background-image: linear-gradient(to right,hsla(0, 0%, 0%, 0.000) 0%,rgba(0, 0, 0, 0.726) 100%),url(/two/assets/img/3.webp);background-position: center;background-repeat: no-repeat;">            
+            <div class="h-100 carousel-item" style="background-size: cover;background-image: linear-gradient(to right,hsla(0, 0%, 0%, 0.000) 0%,rgba(0, 0, 0, 0.726) 100%),url(/two/assets/img/3.webp);background-position: center;background-repeat: no-repeat;">            
               <div class="container">
                 <div class="carousel-caption text-end">
                   <h1>We help you reach new heights.</h1>
@@ -152,7 +152,7 @@
 
     <!-- Services Section -->
     <section class="page-section">
-      <div class="container mb-5 min-vh-100" id="services">
+      <div class="container mb-5 h-100" id="services">
         <h2 class="text-center p-5">Services</h2>
         <hr class="divider my-4" />
         <div class="row">
@@ -195,7 +195,7 @@
       <h2 id="portfolio" class="text-center p-5">Portfolio</h2>
       <hr class="divider-m4">
       <!-- First Item Portfolio -->
-      <div class="row featurette min-vh-100">        
+      <div class="row featurette h-100">        
         <div class="col-md-7">
           <h2 class="featurette-heading fw-bold">First heading for the first portfolio item. <span class="text-primary">It’ll blow your mind.</span></h2>
           <p class="lead">You can insert a great placeholder content here. Create attractive compositions.</p>
@@ -227,7 +227,7 @@
       </div>
       <hr class="featurette-divider">
       <!-- Second Item Portfolio -->
-      <div class="row featurette min-vh-100">
+      <div class="row featurette h-100">
         <div class="col-md-7 order-md-2">
           <h2 class="featurette-heading fw-bold">Want to put more content? <span class="text-primary">Yes you can!</span></h2>
           <p class="lead">Of course. Here you can place more placeholder content to give you a perspective of how this layout would work with some practical examples.</p>
@@ -259,7 +259,7 @@
       </div>
       <hr class="featurette-divider">
       <!-- Third Item Portfolio -->
-      <div class="row featurette min-vh-100">
+      <div class="row featurette h-100">
         <div class="col-md-7">
           <h2 class="featurette-heading fw-bold">Here is a third content. <span class="text-primary">Design as you like. </span></h2>
           <p class="lead">And yes, this is yet another block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
@@ -297,7 +297,7 @@
       <h2 id="team" class="text-center p-5">The Team</h2>
       <hr class="divider my-4" />
       <!-- Three columns -->
-      <div class="text-center p-5 min-vh-100">
+      <div class="text-center p-5 h-100">
         <div class="row">
           <div class="col-lg-4"> <!-- Start of Team Member 1 -->
             <img class="shadow p-0 my-3 bd-placeholder-img rounded-circle" width="140" height="140" src="/two/assets/img/5.webp" alt="" title="140 x 140">
@@ -334,10 +334,10 @@
     </section>
 
     <!-- Contact Us Section -->
-    <section class="page-section px-5 bg-secondary contact">
+    <section class="page-section px-5 bg-secondary contact" style="height: 100vh;">
       <h2 id="contact" class="text-center p-5 text-white">Contact Us</h2>
       <hr class="divider my-4" />
-      <div class="mx-auto min-vh-100" style="max-width: 600px;">
+      <div class="mx-auto h-100" style="max-width: 600px;">
         <form action="[Replace with a valid Formspree link here]" method="post">
           <div class="mb-3">
             <label for="email" class="form-label text-white">Email address*</label>
