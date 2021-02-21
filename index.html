@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Two is a beautiful, responsive, one-page portfolio website template for creative individuals or businesses.">
+    <meta name="author" content="Heksagon">
+    <title>Two | Template by Heksagon</title>
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
+    <noscript><link rel="preload, stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /></noscript>
+    <!-- Core CSS -->
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/assets/css/carousel.css">
+    <noscript><link rel="preload, stylesheet" href="/assets/css/carousel.css"></noscript>
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/assets/css/two.css">
+    <noscript><link rel="preload, stylesheet" href="/assets/css/two.css"></noscript>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      :root{
+        --two-primary: var(--bs-blue); /* Colour of Buttons & Icons */
+        --two-primary-hover: #0057da; /* Buttons Attribute */
+        --two-primary-aura: rgba(13, 109, 253, 0.522); /* Buttons Attribute */
+        --portfolio: var(--bs-yellow); /* Colour of Background of Portfolio and Navigation*/
+        --link-active: #fff; /* Colour of Navigation when active*/
+        --bs-dark: #212529; /* Colour of Navbar, Contact Section and Footer Background */
+      }
+      .navbar-two {
+        background-color:  var(--bs-dark) !important; /* Colour of Footer Navbar */
+        box-shadow: 0 1px 25px rgba(0,0,0, .5);
+      }
+      .nav-item a{
+        color:var(--portfolio); /* Colour of Portfolio Section's Background */
+      }
+      .nav-item i{
+        display: none; /* Hide icon on devices more than 600px width */
+      }
+      @media only screen and (max-width: 600px) { /* Show on devices less than 600px width */
+        .nav-item{ /* Align Footer Menu Items on Mobile Devices */
+          width: 20% !important;
+        }
+        .nav-item h6{ /* Smaller Fonts for Footer Menu Items on Mobile Devices */
+          font-size: 10px;
+        }
+        .nav-item i{ /* Show Icons at a Larger Size for Footer Menu Items on Mobile Devices */
+          display: block;
+          font-size:large;
+          }
+        }
+      @media only screen and (max-width: 340px) {
+        .nav-item h6{ /* Hide Fonts for Footer Navigation on Devices Less Than 340px Width */
+          display: none;
+        }
+      }
+      .navbar-brand{
+        color:var(--portfolio) !important;
+      }
+      .page-section {
+        padding: 2rem 0;
+      }
+      #contact, .contact {
+        background-color: var(--bs-dark);
+        background-image: url("/assets/img/map-image.png");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <!-- Body Start -->
+  <body data-bs-spy="scroll" data-bs-target="#navbar-two" data-bs-offset="0" tabindex="0">
+    <header class="masthead">
+      <!-- Navigation Menu -->
+      <nav id="#" class="navbar-expand-sm position-absolute top-0 start-0 navbar navbar-dark bg-dark container-fluid "><a class="navbar-brand fst-italic fw-bolder" href="#">Two</a><a class="navbar-text p-1 nav-link text-white" href="//www.heksagon.net">A template by Heksagon</a></nav>
+      <nav id="navbar-two" class="navbar-two fixed-bottom navbar-dark bg-dark mt-auto align-middle">
+        <ul class="nav nav-pills mt-2">
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i><h6>ABOUT</h6></a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#services"><i class="fas fa-tools"></i><h6>SERVICES</h6></a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#portfolio"><i class="fas fa-images"></i><h6>PORTFOLIO</h6></a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#team"><i class="fas fa-users"></i><h6>TEAM</h6></a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#contact"><i class="far fa-envelope"></i><h6>CONTACT</h6></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">        
+      <div class="h-100">
+        <div id="myCarousel" class="h-100 align-items-center justify-content-center text-center carousel slide" data-bs-ride="carousel" >
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" style="background-size: cover;background-image: linear-gradient(to right,hsla(0, 0%, 0%, 0.726) 0%,rgba(0, 0, 0, 0.328) 100%),url(/assets/img/1.webp);background-position: center;background-repeat: no-repeat;background-blend-mode:darken;">                 
+              <div class="container h-100">
+                <div class="carousel-caption text-start">
+                  <h1>We are dedicated.</h1>
+                  <p>Our passion is to code beautiful and responsive websites.</p>
+                  <p><a class="btn btn-lg btn-outline-primary text-white border-3" href="#">Sign up today</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" style="background-size: cover;background-image: linear-gradient(to right,hsla(0, 0%, 0%, 0.726) 0%,rgba(0, 0, 0, 0.000) 100%),url(/assets/img/2.webp);background-position: center;background-repeat: no-repeat;">            
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>We go the extra mile.</h1>
+                  <p>Because the treasure is in the journey.</p>
+                  <p><a class="btn btn-lg btn-outline-primary text-white border-3" href="#">Learn more</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" style="background-size: cover;background-image: linear-gradient(to right,hsla(0, 0%, 0%, 0.000) 0%,rgba(0, 0, 0, 0.726) 100%),url(/assets/img/3.webp);background-position: center;background-repeat: no-repeat;">            
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h1>We help you reach new heights.</h1>
+                  <p>Love this template? Use it for your website or share it with someone.</p>
+                  <p><a class="btn btn-lg btn-outline-primary text-white border-3" href="#">Browse more</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>            
+    </section>
+
+    <!-- Services Section -->
+    <section class="page-section">
+      <div class="container mb-5" id="services">
+        <h2 class="text-center p-5">Services</h2>
+        <hr class="divider my-4" />
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="fas fa-4x fa-bolt text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Our Focus</h3>
+              <p class="mb-0">Our templates are built with the focus on speed and security!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="fas fa-4x fa-microchip text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Always Updated</h3>
+              <p class="mb-0">All components are refurbished regularly to keep it up to standard.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="fas fa-4x fa-pencil-alt text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Customizable</h3>
+              <p class="mb-0">Design this template as you wish, just download it and start editing!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="far fa-4x fa-heart text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Passionate</h3>
+              <p class="mb-0">Made with love! Hope you will find this template helpful ❤️</p>
+            </div>
+          </div>
+        </div>
+        <hr class="divider my-4" />
+        <p><a class="btn btn-lg btn-outline-primary border-3 w-50 mx-auto d-block" href="#">Learn more</a></p>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="page-section px-5 bg-portfolio">
+      <h2 id="portfolio" class="text-center p-5">Portfolio</h2>
+      <hr class="divider-m4">
+      <!-- First Item Portfolio -->
+      <div class="row featurette">        
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-bold">First heading for the first portfolio item. <span class="text-white">It’ll blow your mind.</span></h2>
+          <p class="lead">You can insert a great placeholder content here. Create attractive compositions.</p>
+          <!-- Button trigger modal 1 -->
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-lg btn-outline-primary border-3 mb-3 w-50 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Demo modal 1
+            </button>
+          </div>
+            <!-- Modal 1 -->
+            <div class="modal p-3 fade" id="exampleModal" tabindex="-1" aria-labelledby="Modal 1" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title One</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h4>The first modal title content:</h4> Lorem ipsum dolor sit amet consectetur adipisicing elit. <img src="/assets/img/1.webp" class="img-fluid" height="auto" min-width="100vw" alt=""> Fugit necessitatibus temporibus dolorum, a labore non quae eius provident laboriosam hic aliquid porro accusantium reiciendis ullam aperiam? Laboriosam, veritatis? Quae laboriosam optio, aperiam pariatur sint itaque similique modi dolore accusantium, explicabo facere? Aspernatur at facilis eveniet vel quibusdam ea consequuntur hic excepturi porro perferendis soluta, recusandae pariatur ullam tenetur autem inventore praesentium numquam rem maxime! Quae modi, maxime eaque fugit commodi quaerat a eum similique maiores dignissimos eveniet saepe at eos dolore minima laborum consequatur voluptatum! Animi facilis tempore natus nesciunt, hic velit obcaecati deserunt eaque aperiam? Tempore quo mollitia libero veritatis, enim consequuntur voluptas praesentium vel recusandae distinctio ut fuga nostrum, optio dolores saepe cumque architecto molestiae incidunt atque ad quaerat, voluptate debitis non tempora. <img src="/assets/img/2.webp" class="img-fluid" height="auto" min-width="100vw" alt=""> Ipsum mollitia delectus expedita repellat qui ratione deleniti perspiciatis. Sit accusantium quis quo quidem, similique cupiditate nobis inventore maiores maxime aspernatur molestias nihil repellendus magnam fugit qui cumque minus libero minima, vitae at! Consequuntur praesentium voluptatum consequatur asperiores reiciendis voluptates corrupti, fugiat aliquid autem tempore molestiae modi et hic consectetur qui quam sint in culpa earum laboriosam quae totam alias iure ducimus! <img src="/assets/img/3.webp" class="img-fluid" height="auto" min-width="100vw" alt=""> Libero repellat perferendis odit quam optio sint eius facere, repudiandae, nobis dolorum error expedita, maxime inventore nam officia harum?  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Modal 1 -->
+        </div>
+        <div class="col-md-5">
+          <img class="rounded-3 bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" style="height: 500;width: 500;" src="/assets/img/4.webp" role="img" title="Place your own image here" preserveAspectRatio="xMidYMid slice" focusable="false">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <!-- Second Item Portfolio -->
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-bold">Want to put more content? <span class="text-white">Yes you can!</span></h2>
+          <p class="lead">Of course. Here you can place more placeholder content to give you a perspective of how this layout would work with some practical examples.</p>
+          <!-- Button trigger modal 2 -->
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button type="button" class="btn btn-lg btn-outline-primary border-3 mb-3 w-50 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+              Demo Modal 2
+            </button>
+          </div>
+            <!-- Modal 2 -->
+            <div class="modal p-3 fade" id="exampleModal2" tabindex="-1" aria-labelledby="Modal 2" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">Modal title Two</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h4>The second modal title content:</h4> Lorem ipsum dolor sit amet consectetur adipisicing elit. <img src="/assets/img/1.webp" class="img-fluid" height="auto" min-width="100vw" alt=""> Fugit necessitatibus temporibus dolorum, a labore non quae eius provident laboriosam hic aliquid porro accusantium reiciendis ullam aperiam? Laboriosam, veritatis? Quae laboriosam optio, aperiam pariatur sint itaque similique modi dolore accusantium, explicabo facere? Aspernatur at facilis eveniet vel quibusdam ea consequuntur hic excepturi porro perferendis soluta, recusandae pariatur ullam tenetur autem inventore praesentium numquam rem maxime! Quae modi, maxime eaque fugit commodi quaerat a eum similique maiores dignissimos eveniet saepe at eos dolore minima laborum consequatur voluptatum! Animi facilis tempore natus nesciunt, hic velit obcaecati deserunt eaque aperiam? Tempore quo mollitia libero veritatis, enim consequuntur voluptas praesentium vel recusandae distinctio ut fuga nostrum, optio dolores saepe cumque architecto molestiae incidunt atque ad quaerat, voluptate debitis non tempora. <img src="/assets/img/2.webp" class="img-fluid" height="auto" min-width="100vw" alt=""> Ipsum mollitia delectus expedita repellat qui ratione deleniti perspiciatis. Sit accusantium quis quo quidem, similique cupiditate nobis inventore maiores maxime aspernatur molestias nihil repellendus magnam fugit qui cumque minus libero minima, vitae at! Consequuntur praesentium voluptatum consequatur asperiores reiciendis voluptates corrupti, fugiat aliquid autem tempore molestiae modi et hic consectetur qui quam sint in culpa earum laboriosam quae totam alias iure ducimus! <img src="/assets/img/3.webp" class="img-fluid" height="auto" min-width="100vw" alt=""> Libero repellat perferendis odit quam optio sint eius facere, repudiandae, nobis dolorum error expedita, maxime inventore nam officia harum?  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Modal 2 -->            
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="rounded-3 bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" style="height: 500;width: 500;" preserveAspectRatio="xMidYMid slice" src="/assets/img/6.webp" role="img" title="Place your own image here" preserveAspectRatio="xMidYMid slice" focusable="false">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <!-- Third Item Portfolio -->
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-bold">Here is a third content. <span class="text-white">Design as you like. </span></h2>
+          <p class="lead">And yes, this is yet another block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+          <!-- Button trigger modal 3 -->
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-lg btn-outline-primary border-3 mb-3 w-50 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+              Demo Modal 3
+            </button>
+          </div>
+            <!-- Modal 3 -->
+            <div class="modal p-3 fade" id="exampleModal3" tabindex="-1" aria-labelledby="Modal 3" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title Three</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h4>The third modal title content:</h4> Lorem ipsum dolor sit amet consectetur adipisicing elit. <img src="/assets/img/1.webp" class="img-fluid" height="auto" min-width="100vw" alt=""> Fugit necessitatibus temporibus dolorum, a labore non quae eius provident laboriosam hic aliquid porro accusantium reiciendis ullam aperiam? Laboriosam, veritatis? Quae laboriosam optio, aperiam pariatur sint itaque similique modi dolore accusantium, explicabo facere? Aspernatur at facilis eveniet vel quibusdam ea consequuntur hic excepturi porro perferendis soluta, recusandae pariatur ullam tenetur autem inventore praesentium numquam rem maxime! Quae modi, maxime eaque fugit commodi quaerat a eum similique maiores dignissimos eveniet saepe at eos dolore minima laborum consequatur voluptatum! Animi facilis tempore natus nesciunt, hic velit obcaecati deserunt eaque aperiam? Tempore quo mollitia libero veritatis, enim consequuntur voluptas praesentium vel recusandae distinctio ut fuga nostrum, optio dolores saepe cumque architecto molestiae incidunt atque ad quaerat, voluptate debitis non tempora. <img src="/assets/img/2.webp" class="img-fluid" height="auto" min-width="100vw" alt=""> Ipsum mollitia delectus expedita repellat qui ratione deleniti perspiciatis. Sit accusantium quis quo quidem, similique cupiditate nobis inventore maiores maxime aspernatur molestias nihil repellendus magnam fugit qui cumque minus libero minima, vitae at! Consequuntur praesentium voluptatum consequatur asperiores reiciendis voluptates corrupti, fugiat aliquid autem tempore molestiae modi et hic consectetur qui quam sint in culpa earum laboriosam quae totam alias iure ducimus! <img src="/assets/img/3.webp" class="img-fluid" height="auto" min-width="100vw" alt=""> Libero repellat perferendis odit quam optio sint eius facere, repudiandae, nobis dolorum error expedita, maxime inventore nam officia harum?  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Modal 3 -->
+        </div>
+        <div class="col-md-5">
+          <img class="rounded-3 bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" style="height: 500;width: 500;" preserveAspectRatio="xMidYMid slice" src="/assets/img/7.webp" role="img" title="Place your own image here" preserveAspectRatio="xMidYMid slice" focusable="false">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+    </section>
+
+    <!-- Team Section -->
+    <section class="page-section">
+      <h2 id="team" class="text-center p-5">The Team</h2>
+      <hr class="divider my-4" />
+      <!-- Three columns -->
+      <div class="text-center p-5">
+        <div class="row">
+          <div class="col-lg-4"> <!-- Start of Team Member 1 -->
+            <img class="shadow p-0 my-3 bd-placeholder-img rounded-circle" width="140" height="140" src="/assets/img/5.webp" alt="" title="140 x 140">
+            <h2>John</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque magni, dignissimos ut, tempore maiores omnis itaque quos aliquid porro dicta ratione! Accusantium expedita consequatur natus dicta praesentium nam, error nobis?</p>
+            <div class="col">
+              <a class="btn btn-outline-twitter mx-2 btn-lg rounded-circle" title="Twitter" width="40px" height="40px" href="#!"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-outline-instagram mx-2 btn-lg rounded-circle" title="Instagram" width="40px" height="40px" href="#!"><i class="fab fa-instagram"></i></a>
+              <a class="btn btn-outline-linkedin mx-2 btn-lg rounded-circle" title="LinkedIn" width="40px" height="40px" href="#!"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div> <!-- End of Team Member 1 -->
+          <div class="col-lg-4"> <!-- Start of Team Member 2 -->
+            <img class="shadow p-0 my-3 bd-placeholder-img rounded-circle" width="140" height="140" src="/assets/img/8.webp" alt="" title="140 x 140">
+            <h2>Alice</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quam ducimus consequatur asperiores odit dicta eos optio dolores. Dicta ipsam laborum dolorem aut cum debitis, maxime dolores fugiat neque molestias.</p>
+            <div class="col">
+              <a class="btn btn-outline-twitter mx-2 btn-lg rounded-circle" title="Twitter" width="40px" height="40px" href="#!"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-outline-instagram mx-2 btn-lg rounded-circle" title="Instagram" width="40px" height="40px" href="#!"><i class="fab fa-instagram"></i></a>
+              <a class="btn btn-outline-linkedin mx-2 btn-lg rounded-circle" title="LinkedIn" width="40px" height="40px" href="#!"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div> <!-- End of Team Member 2 -->
+          <div class="col-lg-4"> <!-- Start of Team Member 3 -->
+            <img class="shadow p-0 my-3 bd-placeholder-img rounded-circle" width="140" height="140" src="/assets/img/9.webp" alt="" title="140 x 140">
+            <h2>Alex</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores at, illum explicabo, facilis, voluptate vel iusto minima quas quidem repellendus numquam! Tempora sunt deleniti exercitationem vitae consequuntur porro consequatur consectetur?</p>
+            <div class="col">
+              <a class="btn btn-outline-twitter mx-2 btn-lg rounded-circle" title="Twitter" width="40px" height="40px" href="#!"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-outline-instagram mx-2 btn-lg rounded-circle" title="Instagram" width="40px" height="40px" href="#!"><i class="fab fa-instagram"></i></a>
+              <a class="btn btn-outline-linkedin mx-2 btn-lg rounded-circle" title="LinkedIn" width="40px" height="40px" href="#!"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div> <!-- End of Team Member 3 -->
+        </div>
+      </div> <!-- End of columns -->
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="page-section px-5 bg-secondary contact" style="height: 100vh;">
+      <h2 id="contact" class="text-center p-5 text-white">Contact Us</h2>
+      <hr class="divider my-4" />
+      <div class="mx-auto" style="max-width: 600px;">
+        <form action="[Replace with a valid Formspree link here]" method="post">
+          <div class="mb-3">
+            <label for="email" class="form-label text-white">Email address*</label>
+            <input required type="email" class="form-control" id="email" placeholder="your@email.com">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label text-white">Your message*</label>
+            <textarea required class="form-control" id="message"  rows="7" placeholder="Please describe more here."></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg btn-outline-primary text-white w-50 mx-auto d-block border-3">Submit</button>
+        </form>
+      </div>      
+    </section>
+
+    <!-- Policy Section -->
+    <section class="page-section bg-dark px-5 text-center">
+      <a href="#" class="text-decoration-none link-light">Privacy Policy</a> . 
+      <a href="#" class="text-decoration-none link-light">Terms and Conditions</a>
+      <p class="text-secondary">2021 &copy; Your Company</p>
+    </section>
+    
+    <!-- Javascript for the site -->
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+      var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+        target: '#navbar-two'
+      })
+    </script>
+
+  </body>
+</html>
