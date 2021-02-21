@@ -67,15 +67,13 @@
       }
       .page-section {
         padding: 2rem 0;
+        min-height: 100vh;
       }
       #contact, .contact {
         background-color: var(--bs-dark);
         background-image: url("/two/assets/img/map-image.png");
         background-repeat: no-repeat;
         background-position: center;
-      }
-      #about{
-        max-height: 300vh;
       }
     </style>
   </head>
@@ -106,7 +104,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="about">        
+    <section id="about" class="min-vh-100">        
       <div class="min-vh-100">
         <div id="myCarousel" class="min-vh-100 align-items-center justify-content-center text-center carousel slide" data-bs-ride="carousel" >
           <div class="carousel-indicators">
@@ -156,7 +154,7 @@
     </section>
 
     <!-- Services Section -->
-    <section class="page-section min-vh-100">
+    <section class="page-section">
       <div class="container mb-5" id="services">
         <h2 class="text-center p-5">Services</h2>
         <hr class="divider my-4" />
