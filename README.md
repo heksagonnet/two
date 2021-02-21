@@ -31,3 +31,15 @@ If you like this template, please give a star, and consider supporting me at:
 Your support is greatly appreciated 😊
 
 ---
+## Installation
+Check out our [installation guide here](https://www.heksagon.net/free-template/two/#installation-)
+
+If you encounter any issues or have any questions with the template, [comment here (click here and scroll down to the comment section of this page)](https://www.heksagon.net/free-template/two/#graphcomment) or [contact us](https://www.heksagon.net/contact) directly.
+
+---
+## Template Guide
+Check out the guide to [customizing this template here.](https://www.heksagon.net/free-template/two/#template-guide)
+
+---
+## Custom Installation
+If you'd like to have a custom installation and further customization, you can [contact us](https://www.heksagon.net/contact) to request for a quotation.
