@@ -1,8 +1,9 @@
-# Two 
-```by Heksagon```
-## Click here >> [Live Demo](https://heksagonnet.github.io/two/) 
-## Click here >> [Direct Download](https://github.com/heksagonnet/two/archive/main.zip) 
-🔧Easy-Installation ⚡️Fast 📱Responsive
+# Two ```by Heksagon```
+## [Live Demo](https://heksagonnet.github.io/two/) | [Direct Download](https://github.com/heksagonnet/two/archive/main.zip) 
+- 🔧 Easy-Installation 
+- ⚡️ Fast 
+- 📱 Responsive
+- 🎨 Customizable
 ---
 ## Summary
 Two is a **beautiful, responsive, one-page portfolio website template** for creative individuals or businesses. All the colours, fonts, and images are **customizable** to your specifications. Using a [Bootstrap 5.0 Framework](https://getbootstrap.com/docs/5.0/getting-started/introduction/), it is **responsive** and looks good in various screen resolutions from mobile devices, tablets to desktops. 
